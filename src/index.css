@@ -1,0 +1,37 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-container {
+  max-width: 300px;
+  margin: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.suggestion-list {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.suggestion-item {
+  padding: 6px;
+  border-top: 1px solid #eee;
+}
